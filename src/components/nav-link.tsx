@@ -20,8 +20,8 @@ export function NavLink({
         <Icon
           className={`h-5 w-5 ${
             currentRoute === href
-              ? "text-white"
-              : "text-[#5A698F] group-hover:text-red-500"
+              ? "text-foreground"
+              : "text-muted-foreground group-hover:text-red-500"
           }  transition-colors`}
         />
       }
