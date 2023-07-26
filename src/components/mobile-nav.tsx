@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { NavItem } from "@/types"
 
 import { Icons } from "@/components/Icons"
