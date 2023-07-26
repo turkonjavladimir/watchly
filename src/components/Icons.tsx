@@ -1,15 +1,26 @@
 import {
   Bookmark,
   Film,
-  LayoutGrid,
+  LogOut,
   LucideIcon,
   LucideProps,
+  Monitor,
+  Moon,
+  Settings,
+  Sun,
   Tv,
+  User,
 } from "lucide-react"
 
 export type Icon = LucideIcon
 
 export const Icons = {
+  settings: Settings,
+  user: User,
+  logout: LogOut,
+  sun: Sun,
+  moon: Moon,
+  monitor: Monitor,
   app: ({ ...props }: LucideProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
