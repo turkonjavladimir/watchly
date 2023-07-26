@@ -15,7 +15,7 @@ export function NavLink({
   const currentRoute = usePathname()
   const Icon = Icons[icon]
   return (
-    <Link href={href} className="p-4">
+    <Link href={href} className="group p-4">
       {
         <Icon
           className={`h-5 w-5 ${
