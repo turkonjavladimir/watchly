@@ -9,7 +9,7 @@ type MobileNavProps = {
 
 export function MobileNav({ items }: MobileNavProps) {
   return (
-    <nav className="sticky top-0 z-10 flex items-center justify-between bg-[#161D2F] px-6 md:top-6 md:m-6 md:rounded-lg">
+    <nav className="sticky top-0 z-10 flex items-center justify-between bg-background px-6 md:top-6 md:m-6 md:rounded-lg">
       <Link href="/">
         <Icons.logo className="h-7 w-7 text-red-500 md:h-8 md:w-8" />
       </Link>
