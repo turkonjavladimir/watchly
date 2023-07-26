@@ -17,3 +17,9 @@ export type NavItem = {
   disabled?: boolean
   icon: keyof typeof Icons
 }
+
+export type Theme = {
+  value: string
+  label: string
+  icon?: keyof typeof Icons
+}
