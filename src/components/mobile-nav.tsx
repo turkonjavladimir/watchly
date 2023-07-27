@@ -1,8 +1,10 @@
 import Link from "next/link"
 import { NavItem } from "@/types"
 
+import { userMenuConfig } from "@/config/nav"
 import { Icons } from "@/components/Icons"
 import { NavLink } from "@/components/nav-link"
+import { UserMenu } from "@/components/user-menu"
 
 type MobileNavProps = {
   items: NavItem[]
@@ -24,7 +26,14 @@ export function MobileNav({ items }: MobileNavProps) {
           )
         })}
       </ul>
-      <div>menu</div>
+
+      <UserMenu
+        items={userMenuConfig}
+        user={{
+          name: "Wyatt",
+          email: "wyatt@email.com",
+        }}
+      />
     </nav>
   )
 }
